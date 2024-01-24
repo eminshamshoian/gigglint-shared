@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.4.0",
   "license": "MIT",
   "types": "./src/index.d.ts",
   "description": "Helpers library for Gigglint app",
@@ -30,8 +30,8 @@
   ],
   "exports": {
     ".": {
-      "import": "./src/index.js",
-      "require": "./src/index.js"
+      "import": "./esm/index.js",
+      "require": "./cjs/index.js"
     }
   },
   "dependencies": {
